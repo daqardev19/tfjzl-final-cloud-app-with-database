@@ -1,5 +1,6 @@
-from django.apps import AppConfig
+﻿from django.apps import AppConfig
 
 
 class OnlinecourseConfig(AppConfig):
-    name = 'onlinecourse'
+    default_auto_field = "django.db.models.AutoField"
+    name = "onlinecourse"
